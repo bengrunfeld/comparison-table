@@ -1,0 +1,61 @@
+html {
+  font-size: 10px;
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.scrollable {
+  overflow-x: scroll;
+}
+
+.table {
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 12rem;
+  height: 8rem;
+  background: #e3e3e3;
+  margin: 1rem;
+  flex-shrink: 0;
+}
+
+.cell:first-child {
+  width: 23rem;
+}
+
+.blank {
+  background: none;
+}
+
+.fixed-1 {
+  width: 930px;
+  background: #3e3e3e;
+  margin: 0 10px;
+}
+
+.fixed-child {
+  position: sticky;
+  left: 0;
+  display: inline-block;
+  padding: 3rem 0;
+}
+
+.fixed-text {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  text-align: center;
+}
